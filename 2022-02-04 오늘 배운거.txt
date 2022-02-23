@@ -1,0 +1,13 @@
+div.article*2>div.image+div.texts>h3{segment title}+h5{Lorem ipsum dolor sit amet}+p{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic fugiat corporis beatae officia natus eveniet atque corrupti, deserunt exercitationem? Facilis molestias, vel saepe explicabo assumenda facere error amet illum cum?}+div.sns
+
+
+
+
+div.article*3>div.image+div.texts>h3{segment title}+p{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic fugiat corporis beatae officia natus eveniet atque corrupti, deserunt exercitationem? Facilis molestias, vel saepe explicabo assumenda facere error amet illum cum?}+div.sns
+
+
+
+ctrl+스페이스바+tap
+
+
+

@@ -1,0 +1,16 @@
+magin: 50px 20px 0;
+padding: 50px 30px;
+padding: 100px 80px 100px 20px;
+magin: 20px 10px 30px 40px;
+
+float 요소
+예)div.section::after{
+            content: '';
+            display: block;
+            clear: both;
+방법은 두가지
+1.가상요소 ::after를 만들어서 clear:both를 적용한다(float를 준 부모요소에게 가상요소를 준다.)
+2.부유된 요소를 감싸는 부모요소에게 높이를 지정한다
+- 유지보수 할 경우에 부모의 높이까지 같이 변경시켜줘야하는 번거로움이 있다.
+예)div.section{
+height: 250px}

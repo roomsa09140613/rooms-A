@@ -1,0 +1,69 @@
+poition : 위치
+
+absolut: 정확하게
+
+realative: 관련된 
+
+
+ab : 위치시키고 싶은 요소
+
+re: 그요소의 부모
+
+부모기준으로 정렬이 되기때문에
+부모가 부유되지 않으면
+위치시키고 싶은 요소가
+자리를 못찾아갑니다
+따라서 position: absolute를 주셨으면
+부모요소에
+반!드!시!!!!
+relative가 와야합니다
+빠져도 되고 그런거 전혀 없습니다~
+
+position absolute를 주고
+아무값
+> 위치
+탑, 레프트, 라이트, 바텀
+기본적으로
+left top이 0인 상태로 세팅이 됩니다.!
+
+
+<가운데 공식>
+margin: auto;
+      right: 0px;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+
+flat과 position의 공통점: 부유하다 
+
+z-index: 숫자로 구분 / 숫자가 클수록 앞으로 올라옵니다/ 숫자는 아무거나 줘도 되지만 핸들링 할 수 있는 숫자를 주고 999는 제일 먼저 앞을 나타내는 숫자 
+
+
+
+
+hover: 마우스 오버 
+선택자:hover /선택자에 마우스를 올렸을때
+
+transition: transition은 변경되는 속성과 속성값이 자연스럽게 시간을 두고 변경될 수 있도록 하는 속성
+hover후 적용된
+스타일의 이전 선택자에
+적용합니다!
+
+예)transition: font-size 0.5s;
+transition: all 0.5s;
+
+트랜지션은 from ~~값 to ~~~값
+반드시 기준이 있어야합니다!
+예)ul>li:nth-child(1){
+            background-color: aqua;
+            z-index: 1;
+            top: 0px;
+            transition: top 0.5s;
+        }
+        ul:hover>li:nth-child(1){
+            top: 500px;
+        }
+
+트랜지션은 px단위가 없으면 먹히지 않음 
+
+left, right , top, bottom 반드시 포지션이 있는 상태에서만 사용 
